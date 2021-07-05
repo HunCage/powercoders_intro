@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="welcome">
+        <nav>
+            <ul>
+                <li class="logoContainer">
+                    <a class="logo" href="https://petersworld.ch" title="Click Here to visit my WebSite!" target="_blank">PW</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Welcome on my introduction page</h1>
+        <div>
+            <p class="welcome-text">
+                <small style="float:right;color:#eee; margin:2em 6.5em">click on the image to play audio</small>
+                <audio id="play" src="PeterHorvath_intro.mp3"></audio>
+                <a class="btn" onclick="playSound();">
+                    <img class="ipic" src="i.jpg" alt="It's me">
+                </a>
+                <br />Hi my name is Peter and I am 41 years old. I came from Hungary.
+                <br><br>As a child, I got my first computer in 1987, which I immediately fell in love with it, and that love has been going on ever since. I wrote my first program on this computer. In Basic. For me, working with a computer is a relaxing
+                experience.
+                <br><br>Unfortunately, the circumstances at the time did not allow this to be my profession, but I want to change that now. That’s why I started learning programming and English on my own. I have successfully completed several online courses.
+                These are only aroused and deepened my interest in programming.
+                <br><br>My hobbies are computer science, learning and traveling. <br><br>My goal is to get a job as a Software Developer or Full Stack Developer.
+                <br><br>Thank you for the opportunity.
+                <br><br><br> Bye!
+
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="strengths">
+            <ul>
+                <li>I quickly learn everything, what am I motivated for.</li>
+                <li>Flexibility</li>
+                <li>Enjoyment of the job</li>
+                <li>goal-oriented</li>
+                <li>Interest after new things</li>
+                <li>Precise, Persevering</li>
+                <li>Teamplayer</li>
+            </ul>
+        </section>
+        <section class="row">
+            <h2 id="skills">My Knowledge</h2>
+
+            <div class="column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Links to my Courses
+                                <p><small>click on a link for more info</small></p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://www.sololearn.com/profile/13040652" target="_blank">
+                                Sololearn
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://www.freecodecamp.org/huncage" target="_blank">
+                                FreeCodeCamp
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://github.com/HunCage" target="_blank">
+                                GitHub
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://www.codecademy.com/profiles/peterHorvath6498374231" target="_blank">
+                                CodeCademy
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://codepen.io/huncage" target="_blank">
+                                CodePen.io
+                            </a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>My Skills</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                        </tr>
+
+                        <tr>
+                            <td>CSS</td>
+                        </tr>
+
+                        <tr>
+                            <td>JavaScript</td>
+                        </tr>
+
+                        <tr>
+                            <td>jQuery</td>
+                        </tr>
+
+                        <tr>
+                            <td>React</td>
+                        </tr>
+
+                        <tr>
+                            <td>Vue</td>
+                        </tr>
+
+                        <tr>
+                            <td>NodeJs</td>
+                        </tr>
+
+                        <tr>
+                            <td>PHP</td>
+                        </tr>
+
+                        <tr>
+                            <td>DataBase</td>
+                        </tr>
+
+                        <tr>
+                            <td>Linux</td>
+                        </tr>
+
+                        <tr>
+                            <td>MS Office</td>
+                        </tr>
+
+                        <tr>
+                            <td>Photoshop</td>
+                        </tr>
+
+                        <tr>
+                            <td>Postman</td>
+                        </tr>
+
+                        <tr>
+                            <td>Xampp</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <p>
+                <small>Visit my self maded Website or Send me an email</small>
+                <a class="mail" href="https://petersworld.ch" title="Click Here to visit my WebSite!" target="_blank">petersworld.ch</a>
+
+                <a class="mail" title="Send me an email" href="mailto:gkipeter@gmail.com">
+                    <img class="mailImg" src="https://img.icons8.com/material-outlined/60/000000/filled-sent.png" /> Contact me
+                </a>
+            </p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            designed by
+            <a href="mailto:gkipeter@gmail.com">madDesign </a> &copy;2021
+        </p>
+    </footer>
+
+    <script>
+        function playSound() {
+            document.getElementById('play').play();
+        }
+    </script>
+</body>
+
+</html>
